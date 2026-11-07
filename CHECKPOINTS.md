@@ -148,5 +148,5 @@
   - Pushed all commits and visual assets to remote repository:
     `https://github.com/anirudhtandon172005-ai/google-dot-com-clone`
 - **Repository URL**: `https://github.com/anirudhtandon172005-ai/google-dot-com-clone`
-- **Live Website URL**: `https://google-clone-sage-seven.vercel.app`
+- **Live Website URL**: `https://pixel-search-preview.vercel.app`
 - **Pass/fail status**: PASS

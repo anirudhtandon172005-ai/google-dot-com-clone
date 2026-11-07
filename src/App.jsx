@@ -71,6 +71,27 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {/* Educational Showcase Badge */}
+      <div
+        style={{
+          position: 'fixed',
+          bottom: '12px',
+          right: '16px',
+          backgroundColor: 'rgba(32, 33, 36, 0.88)',
+          color: '#ffffff',
+          padding: '6px 12px',
+          borderRadius: '16px',
+          fontSize: '11px',
+          fontFamily: 'Arial, sans-serif',
+          letterSpacing: '0.2px',
+          zIndex: 9999,
+          pointerEvents: 'none',
+          boxShadow: '0 2px 6px rgba(0,0,0,0.2)'
+        }}
+      >
+        🎓 Educational UI Showcase • Not affiliated with Google
+      </div>
     </div>
   );
 }

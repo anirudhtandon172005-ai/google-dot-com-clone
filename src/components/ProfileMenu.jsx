@@ -37,21 +37,15 @@ export default function ProfileMenu() {
   if (!isSignedIn) {
     return (
       <div style={{ position: 'relative' }}>
-        <a
+        <button
           ref={btnRef}
-          href="https://accounts.google.com/ServiceLogin?hl=en"
+          type="button"
           className="sign-in-btn"
           aria-label="Sign in"
-          onClick={(e) => {
-            // Optional: let users toggle profile menu on Shift/Alt or preview demo account
-            if (e.altKey || e.ctrlKey) {
-              e.preventDefault();
-              setIsSignedIn(true);
-            }
-          }}
+          onClick={() => setIsSignedIn(true)}
         >
           Sign in
-        </a>
+        </button>
       </div>
     );
   }
