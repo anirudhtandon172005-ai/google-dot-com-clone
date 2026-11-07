@@ -166,3 +166,4 @@ async function inspectFooterAndButtons() {
 }
 
 inspectFooterAndButtons().catch(console.error);
+

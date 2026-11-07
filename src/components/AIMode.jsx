@@ -16,3 +16,4 @@ export default function AIMode({ isAiMode, onToggle }) {
     </button>
   );
 }
+

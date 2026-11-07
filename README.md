@@ -1,5 +1,7 @@
 # Google.com Pixel-Accurate Clone (React + Vite)
 
+> 🌐 **Live Website**: [https://google-clone-sage-seven.vercel.app](https://google-clone-sage-seven.vercel.app)
+
 A high-fidelity, pixel-accurate reverse-engineered recreation of the live **Google.com** homepage built with **React 18**, **Vite**, **HTML5**, and **CSS3**.
 
 The project was developed using a rigorous **Recursive Visual QA Loop**, comparing measured DOM dimensions, computed styles, vector SVG assets, and pixel overlays directly against the live Google homepage rendered in Google Chrome.
@@ -185,3 +187,4 @@ node scripts/test_responsive.cjs
 
 ## 📄 License
 MIT
+

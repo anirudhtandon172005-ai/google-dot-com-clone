@@ -48,3 +48,4 @@ export default function SearchButtons({ query, onSearch, onLucky }) {
     </div>
   );
 }
+

@@ -106,3 +106,4 @@ async function compareVisuals() {
 }
 
 compareVisuals().catch(console.error);
+
