@@ -1,0 +1,95 @@
+.footer {
+  width: 100%;
+  background: var(--bg-primary);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-location {
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--border-footer);
+  font-size: 15px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+}
+
+.footer-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-links-left,
+.footer-links-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  color: var(--text-primary);
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Settings button & menu */
+.settings-container {
+  position: relative;
+}
+
+.settings-btn {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+}
+
+.settings-menu {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 200px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-item {
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #3c4043;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: left;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.settings-item:hover {
+  background-color: #f1f3f4;
+  color: #202124;
+}
+
+.settings-divider {
+  height: 1px;
+  background-color: #dadce0;
+  margin: 6px 0;
+}

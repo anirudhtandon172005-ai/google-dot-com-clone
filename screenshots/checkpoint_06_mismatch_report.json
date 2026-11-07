@@ -1,0 +1,106 @@
+{
+  "currentMetrics": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 60,
+      "top": 0,
+      "left": 0
+    },
+    "logo": {
+      "x": 584,
+      "y": 258,
+      "width": 272,
+      "height": 92,
+      "top": 258,
+      "left": 584
+    },
+    "searchBar": {
+      "x": 428,
+      "y": 376,
+      "width": 584,
+      "height": 52,
+      "top": 376,
+      "left": 428
+    },
+    "searchInput": {
+      "x": 475,
+      "y": 388,
+      "width": 462,
+      "height": 28,
+      "top": 388,
+      "left": 475
+    },
+    "buttonsContainer": {
+      "x": 579,
+      "y": 446,
+      "width": 282,
+      "height": 36,
+      "top": 446,
+      "left": 579
+    },
+    "searchBtn": {
+      "x": 579,
+      "y": 446,
+      "width": 127,
+      "height": 36,
+      "top": 446,
+      "left": 579
+    },
+    "luckyBtn": {
+      "x": 718,
+      "y": 446,
+      "width": 143,
+      "height": 36,
+      "top": 446,
+      "left": 718
+    },
+    "languageLinks": {
+      "x": 450,
+      "y": 536,
+      "width": 540,
+      "height": 28,
+      "top": 536,
+      "left": 450
+    },
+    "footer": {
+      "x": 0,
+      "y": 806,
+      "width": 1440,
+      "height": 94,
+      "top": 806,
+      "left": 0
+    }
+  },
+  "comparison": [
+    {
+      "element": "Header",
+      "reference": "x:0, y:0, w:1440, h:60",
+      "current": "x:0, y:0, w:1440, h:60",
+      "difference": "Exact Match",
+      "priority": "None"
+    },
+    {
+      "element": "Logo",
+      "reference": "x:584, y:258, w:272, h:92",
+      "current": "x:584, y:258, w:272, h:92",
+      "difference": "Exact Match",
+      "priority": "None"
+    },
+    {
+      "element": "Search Bar",
+      "reference": "x:428, y:376, w:584, h:52",
+      "current": "x:428, y:376, w:584, h:52",
+      "difference": "Exact Match",
+      "priority": "None"
+    },
+    {
+      "element": "Footer",
+      "reference": "x:0, y:806, w:1440, h:94",
+      "current": "x:0, y:806, w:1440, h:94",
+      "difference": "Exact Match",
+      "priority": "None"
+    }
+  ]
+}

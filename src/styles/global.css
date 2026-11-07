@@ -1,0 +1,75 @@
+:root {
+  --google-blue: #3186ff;
+  --google-red: #fc413d;
+  --google-yellow: #ffbe00;
+  --google-green: #00af57;
+  --text-primary: #16171a;
+  --text-secondary: #4e5059;
+  --text-subtle: #70757a;
+  --link-color: #1a0dab;
+  --bg-primary: #ffffff;
+  --bg-btn: #f8f9fa;
+  --border-light: #dadce0;
+  --border-footer: #d2d2d2;
+  --border-btn: #f8f9fa;
+  --shadow-search: 0 3px 10px 0 rgba(31, 31, 31, 0.08);
+  --shadow-search-hover: 0 1px 6px rgba(32, 33, 36, 0.28);
+  --shadow-btn-hover: 0 1px 1px rgba(0, 0, 0, 0.1);
+  --btn-hover-border: #dadce0;
+  --btn-hover-bg: #f8f9fa;
+  --btn-hover-color: #202124;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.google-app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* Center main section */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  position: relative;
+}
+
+.top-spacer {
+  min-height: 120px;
+  height: calc(100vh - 702px);
+  max-height: 230px;
+  flex-shrink: 0;
+}
+
+.bottom-spacer {
+  flex-grow: 1;
+  min-height: 20px;
+}
